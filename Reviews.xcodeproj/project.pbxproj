@@ -11,6 +11,10 @@
 		69A24716274C508B0017F788 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A24715274C508B0017F788 /* ContentView.swift */; };
 		69A24718274C508C0017F788 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69A24717274C508C0017F788 /* Assets.xcassets */; };
 		69A2471B274C508C0017F788 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69A2471A274C508C0017F788 /* Preview Assets.xcassets */; };
+		69A24722274C51000017F788 /* ReviewsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A24721274C51000017F788 /* ReviewsScreen.swift */; };
+		69A24724274C516A0017F788 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A24723274C516A0017F788 /* Cell.swift */; };
+		69A24726274C518C0017F788 /* UserResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A24725274C518C0017F788 /* UserResponseModel.swift */; };
+		69A24728274C51B70017F788 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A24727274C51B70017F788 /* UserViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		69A24715274C508B0017F788 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		69A24717274C508C0017F788 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		69A2471A274C508C0017F788 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		69A24721274C51000017F788 /* ReviewsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewsScreen.swift; sourceTree = "<group>"; };
+		69A24723274C516A0017F788 /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
+		69A24725274C518C0017F788 /* UserResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserResponseModel.swift; sourceTree = "<group>"; };
+		69A24727274C51B70017F788 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +60,13 @@
 			isa = PBXGroup;
 			children = (
 				69A24713274C508B0017F788 /* ReviewsApp.swift */,
+				69A24725274C518C0017F788 /* UserResponseModel.swift */,
+				69A24727274C51B70017F788 /* UserViewModel.swift */,
 				69A24715274C508B0017F788 /* ContentView.swift */,
 				69A24717274C508C0017F788 /* Assets.xcassets */,
 				69A24719274C508C0017F788 /* Preview Content */,
+				69A24721274C51000017F788 /* ReviewsScreen.swift */,
+				69A24723274C516A0017F788 /* Cell.swift */,
 			);
 			path = Reviews;
 			sourceTree = "<group>";
@@ -138,7 +150,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				69A24716274C508B0017F788 /* ContentView.swift in Sources */,
+				69A24728274C51B70017F788 /* UserViewModel.swift in Sources */,
+				69A24724274C516A0017F788 /* Cell.swift in Sources */,
+				69A24726274C518C0017F788 /* UserResponseModel.swift in Sources */,
 				69A24714274C508B0017F788 /* ReviewsApp.swift in Sources */,
+				69A24722274C51000017F788 /* ReviewsScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
